@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('World Power Consumption(2012).csv',sep=',')							#Importing the .csv for data analysis
+df = pd.read_csv('Covid-19.csv',sep=',')												#Importing the .csv for data analysis
 print (df.tail())																		#Importing the .csv for data analysis
 print ("--------------------------------------------------------------------------")
 print (df.shape)																		#Dimensions of the data
